@@ -19,11 +19,12 @@ body {
 	background: url(../images/logo.png) no-repeat;
 	width: 199px;
 	height: 33px;
+	margin-bottom: 10%;
 	text-indent: -999px;
 }
 
 /* Imagen Responsiva */
-.topo img{
+.slogan {
 	max-width: 1540px;   /* Máximo da largura da imagem */
 	width: 100%;
 	max-height: 317px;  /* Máximo da altura da imagem */
@@ -38,3 +39,27 @@ body {
 .topo ul li a { font-weight: bold; color: #5e42b0; text-decoration: none; }
 .topo ul li a:hover { text-decoration: underline; }
 .topo ul li a.ativo { color: #fff; text-decoration: none; }
+
+/* Botão App */
+.btn-venda {
+	width: 564px;
+	height: 100px; //A altura tem de ser fixa
+	position: absolute;
+	padding: 30px 10px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+.btn-app {
+	max-width: 250px;   /* Máximo da largura da imagem */
+	width: 100%;
+	max-height: 77px;  /* Máximo da altura da imagem */
+	min-height: auto;      /* Mínimo da altura, por padrão “auto” */
+	background-size:100%;
+	background-repeat: no-repeat;
+	padding: 15px;
+}
+
