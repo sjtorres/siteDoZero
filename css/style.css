@@ -1,0 +1,29 @@
+body {
+	background: #f4f4f4;
+	border-top: 17px solid #000;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.geral {
+	width: 80%;
+	margin: 20px auto 0;
+}
+
+.topo {
+	border-bottom: 1px solid #c0c0c0;
+	padding: 0 0 20px 0;
+}
+
+h1 {
+	background: url(../imagens/Logo-top.png) no-repeat;
+	width: 184px;
+	height: 100px;
+	text-indent: -999px;
+}
+
+.topo ul { float: right; margin: -60px 0 0 0; }
+.topo ul li { display: inline; padding: 0 0 0 60px; text-transform: uppercase; }
+.topo ul li a { font-weight: bold; text-decoration: none; color: #fe9b00; }
+.topo ul li a:hover { text-decoration: underline; }
+.topo ul li a.ativo { color: #000; text-decoration: none; }
