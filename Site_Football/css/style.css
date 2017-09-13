@@ -22,6 +22,7 @@ body {
 	text-indent: -999px;
 }
 
+/* Imagen Responsiva */
 .topo img{
 	max-width: 1540px;   /* Máximo da largura da imagem */
 	width: 100%;
@@ -31,8 +32,9 @@ body {
 	background-repeat: no-repeat;
 }
 
+/* Menu */
 .topo ul { float: right; margin: -35px 0 0 0; }
 .topo ul li { display: inline; padding: 0 0 0 60px; text-transform: uppercase; }
 .topo ul li a { font-weight: bold; color: #5e42b0; text-decoration: none; }
-.topo ul li a:hover { color: #fff; text-decoration: underline; }
+.topo ul li a:hover { text-decoration: underline; }
 .topo ul li a.ativo { color: #fff; text-decoration: none; }
